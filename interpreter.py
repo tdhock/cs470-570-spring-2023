@@ -1,4 +1,5 @@
 import code
+import re
 class FileConsole(code.InteractiveConsole):
     """Emulate python console but use file instead of stdin"""
     def raw_input(self, prompt):
@@ -6,6 +7,7 @@ class FileConsole(code.InteractiveConsole):
         if line=="":
             raise EOFError()
         no_newline = line.replace("\n", "")
+        no_indent = re.match(r"^\s", line) is None
         print(prompt, no_newline, sep="")
         return no_newline
     

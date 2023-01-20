@@ -2,7 +2,8 @@ def add(x, y):
     result = x + y
     return result
 
-#if running via interpreter.py, make sure to include an empty line
-#after every function/class definition.
+# if you want to use interpreter.py, then only put empty line at the
+# end of function/class definitions, as above (not inside of
+# function/class definitions).
 add(1, 2)
 add(3, 10)

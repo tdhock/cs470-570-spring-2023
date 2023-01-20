@@ -1,0 +1,95 @@
+Computer Science 470 and 570 at Northern Arizona University, Spring
+2023
+
+Topic: Artificial Intelligence.
+
+Dates: 18 Jan 2023 to 12 May 2023
+
+Meeting time/place: MoWeFr 9:10AM - 10:00AM, Eng 120. 
+
+Course materials adapted from [[https://www.cefns.nau.edu/~edo/Classes/CS470-570_WWW/][Dr. D's Spring 2018 offering]] and [[https://github.com/tdhock/cs470-570-spring-2021][my
+previous offering]].
+
+Syllabus: [[https://docs.google.com/document/d/1YScsJ_Z2C6CMNk90aOLmvzleOtReqiPcoa7iPPXzDYE/edit][Google Doc]].
+
+** Weekly schedule of homeworks
+
+Each homework must be submitted on bblearn as a single PDF report,
+with all of the code, results, and answers to questions.
+
+Please make sure that your report contains the commands and output as
+shown in [[https://www.cefns.nau.edu/~edo/Classes/CS470-570_WWW/Assignments/Prog1-Boggle/Phase1output.txt][this example output file]]. For each test command
+- There should be a >>> prompt followed by the test command,
+- followed by the output of that command (from print statements and/or
+  the return value),
+- followed by a newline (to provide visual separation between each
+  command). If you do sys.ps1='\n>>>' then that will print a newline
+  before every command prompt.
+
+One way to do this is by simply running "python" which starts the
+interactive REPL, and then paste your code in. A more automated way to
+do this (less tedious copy-pasting) is by running your python script
+through [[file:interpreter.py]], for example:
+
+#+begin_src shell-script
+$ python interpreter.py example_homework_code.py
+
+>>> def add(x, y):
+...     return x + y
+
+>>> add(1, 2)
+3
+
+>>> add(3, 4)
+7
+#+end_src
+
+Each homework assignment is due on the Friday of the corresponding
+week, at 11:59PM.
+
+- Jan 19: [[file:homeworks/01_python.org][Homework week 1: getting started with python]].
+- Jan 26: Homework week 2: Boggle part 0.
+- Feb 2: Homework week 3: Boggle part 1.
+- Feb 9: Homework week 4: Boggle part 2.
+- Feb 16: Homework week 5: Route-finding part 0. 
+- Feb 23: Homework week 6: Route-finding part 1.
+- Mar 2: Homework week 7: Route-finding part 2.
+- Mar 9: week 8, no homework, Mid-term review and exam.
+- Mar 16: spring break!
+- Mar 23: Homework week 9: Halma part 0.
+- Mar 30: Homework week 10: Halma part 1.
+- Apr 6: Homework week 11: Halma part 2.
+- Apr 13: Homework week 12: Image classification part 0.
+- Apr 20: Homework week 13: Image classification part 1.
+- Apr 27: Homework week 14: Image classification part 2.
+- May 4: reading week, exam review.
+- May 11: finals week.
+
+** Video Resources
+
+- [[https://drive.google.com/drive/folders/1pT_E2KcJO039mxK5c4aTVeVlnCwFdQeS?usp=sharing][Google Drive folder with videos from my Spring 2021 class]].
+
+** Textbook
+
+The optional readings will be from [[http://aima.cs.berkeley.edu/][Artificial Intelligence: A Modern
+Approach]] by Russell and Norvig.
+- [[https://arizona-nau-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=01NAU_ALMA21108980210003842&context=L&vid=01NAU&lang=en_US&search_scope=Everything&adaptor=Local%2520Search%2520Engine&tab=default_tab&query=any,contains,artificial%2520intelligence%2520a%2520modern%2520approach&mode=Basic][Dead tree book at Cline]] (on 4 hour reserve).
+- [[https://www.amazon.com/Artificial-Intelligence-Approach-Stuart-Russell/dp/9332543518][Amazon]]
+
+** Exercises
+
+[[https://aimacode.github.io/aima-exercises/][AIMA Exercises]]
+
+** Software
+
+*** pytorch 
+
+[[http://bartek-blog.github.io/python/pytorch/conda/2018/11/12/install-pytorch-with-conda.html][Tutorial explaining pytorch installation under anaconda]]. 
+
+The command I used to install was:
+
+#+begin_src shell-script
+conda install pytorch torchvision cpuonly -c pytorch
+#+end_src
+
+After that you should be able to do =import torch= in python.

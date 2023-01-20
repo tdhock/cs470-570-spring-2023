@@ -61,7 +61,7 @@ week, at 11:59PM. Homeworks will require use of python ([[https://github.com/tdh
 anaconda]]), I recommend using an IDE such as [[https://github.com/tdhock/cs499-599-fall-2022/blob/main/installation.org][emacs]] in which you can see the code, send lines interactively to the python interpreter with a keystroke (control-enter in emacs), and immediately see the results/output after running each line of code.
 
 - Jan 19: [[file:homeworks/01_python.org][Homework week 1: getting started with python]].
-- Jan 26: Homework week 2: Boggle part 0.
+- Jan 26: [[file:homeworks/02_boggle0.org][Homework week 2: Boggle part 0]].
 - Feb 2: Homework week 3: Boggle part 1.
 - Feb 9: Homework week 4: Boggle part 2.
 - Feb 16: Homework week 5: Route-finding part 0. 

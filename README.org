@@ -45,7 +45,9 @@ $ python interpreter.py example_homework_code.py
 #+end_src
 
 Each homework assignment is due on the Friday of the corresponding
-week, at 11:59PM.
+week, at 11:59PM. Homeworks will require use of python ([[https://github.com/tdhock/cs499-599-fall-2022/blob/main/installation.org][I recommend
+anaconda]]), I recommend using an IDE where you can see the code and
+send lines interactively to an interpreter, such as [[https://github.com/tdhock/cs499-599-fall-2022/blob/main/installation.org][emacs]].
 
 - Jan 19: [[file:homeworks/01_python.org][Homework week 1: getting started with python]].
 - Jan 26: Homework week 2: Boggle part 0.
@@ -64,6 +66,8 @@ week, at 11:59PM.
 - Apr 27: Homework week 14: Image classification part 2.
 - May 4: reading week, exam review.
 - May 11: finals week.
+
+Homeworks will be graded using this [[https://docs.google.com/document/d/1-owd3uMexZKzdOib9R_CQrwke-BYkIq2-m6Sd1sFNVY/edit#heading=h.pekgvy78tviz][General Usage Rubric]]. 
 
 ** Video Resources
 

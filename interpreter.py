@@ -7,7 +7,7 @@ class FileConsole(code.InteractiveConsole):
             raise EOFError()
         no_newline = line.replace("\n", "")
         print(prompt, no_newline, sep="")
-        return line
+        return no_newline
     
 def run_file(filename):
     fc = FileConsole()

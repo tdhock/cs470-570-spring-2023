@@ -46,8 +46,7 @@ $ python interpreter.py example_homework_code.py
 
 Each homework assignment is due on the Friday of the corresponding
 week, at 11:59PM. Homeworks will require use of python ([[https://github.com/tdhock/cs499-599-fall-2022/blob/main/installation.org][I recommend
-anaconda]]), I recommend using an IDE where you can see the code and
-send lines interactively to an interpreter, such as [[https://github.com/tdhock/cs499-599-fall-2022/blob/main/installation.org][emacs]].
+anaconda]]), I recommend using an IDE such as [[https://github.com/tdhock/cs499-599-fall-2022/blob/main/installation.org][emacs]] in which you can see the code, send lines interactively to the python interpreter with a keystroke (control-enter in emacs), and immediately see the results/output after running each line of code.
 
 - Jan 19: [[file:homeworks/01_python.org][Homework week 1: getting started with python]].
 - Jan 26: Homework week 2: Boggle part 0.

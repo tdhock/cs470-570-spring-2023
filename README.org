@@ -27,9 +27,12 @@ shown in [[https://www.cefns.nau.edu/~edo/Classes/CS470-570_WWW/Assignments/Prog
   before every command prompt.
 
 One way to do this is by simply running "python" which starts the
-interactive REPL, and then paste your code in. A more automated way to
-do this (less tedious copy-pasting) is by running your python script
-through [[file:interpreter.py]], for example:
+interactive REPL, and then paste your code in (make sure your code
+does not have any empty lines in the middle of function/class
+definitions, and that you do have an empty line at the end of each
+function/class definition). A more automated way to do this (less
+tedious copy-pasting) is by running your python script through
+[[file:interpreter.py]], for example:
 
 #+begin_src shell-script
 $ python interpreter.py example_homework_code.py 

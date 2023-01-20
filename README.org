@@ -32,16 +32,25 @@ do this (less tedious copy-pasting) is by running your python script
 through [[file:interpreter.py]], for example:
 
 #+begin_src shell-script
-$ python interpreter.py example_homework_code.py
+$ python interpreter.py example_homework_code.py 
+
 
 >>> def add(x, y):
-...     return x + y
+...     result = x + y
+...     return result
+... 
+
+>>> # if you want to use interpreter.py, then only put empty line at the
+
+>>> # end of function/class definitions, as above (not inside of
+
+>>> # function/class definitions).
 
 >>> add(1, 2)
 3
 
->>> add(3, 4)
-7
+>>> add(3, 10)
+13
 #+end_src
 
 Each homework assignment is due on the Friday of the corresponding

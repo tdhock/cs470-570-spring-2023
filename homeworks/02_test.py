@@ -1,6 +1,6 @@
 # put your code for loadBoard, printBoard, possibleMoves here.
 myBoard = loadBoard("board.txt")
 printBoard(myBoard)
-possibleMoves((3,3),myBoard)
-possibleMoves((2,1),myBoard)
+possibleMoves((0,0),myBoard)
+possibleMoves((2,2),myBoard)
 

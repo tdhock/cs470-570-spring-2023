@@ -1,4 +1,4 @@
->>> myBoard = loadBoard('fourboard.txt') # loads the specified file into a myBoard variable
+>>> myBoard = loadBoard('board.txt') # loads the specified file into a myBoard variable
 
 >>> printBoard(myBoard)
 X G T S

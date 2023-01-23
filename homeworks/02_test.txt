@@ -1,6 +1,6 @@
->>>  loadBoard('fourboard.txt') # loads the specified file into a myBoard variable
+>>> myBoard = loadBoard('fourboard.txt') # loads the specified file into a myBoard variable
 
->>>  printBoard(myBoard)
+>>> printBoard(myBoard)
 X G T S
 A M Z J
 E O C M
@@ -9,5 +9,5 @@ U F E V
 >>> possibleMoves((0,0), myBoard)
 {(0, 1), (1, 0), (1, 1)}
 
->>>  possibleMoves((2,2), myBoard)
+>>> possibleMoves((2,2), myBoard)
 {(1, 2), (3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 3), (1, 1)}

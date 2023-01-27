@@ -64,8 +64,8 @@ anaconda]]), I recommend using an IDE such as [[https://github.com/tdhock/cs499-
 - Jan 26: [[file:homeworks/02_boggle0.org][Homework week 2: Boggle part 0]].
   - [[https://en.wikipedia.org/wiki/Boggle][Boggle wikipedia page]].
   - [[file:slides/chapter1.pptx][Chapter 1 slides]].
-- Feb 2: Homework week 3: Boggle part 1.
-- Feb 9: Homework week 4: Boggle part 2.
+- Feb 2: [[file:homeworks/03_boggle1.org][Homework week 3: Boggle part 1]].
+- Feb 9: [[file:homeworks/04_boggle2.org][Homework week 4: Boggle part 2]].
 - Feb 16: Homework week 5: Route-finding part 0. 
 - Feb 23: Homework week 6: Route-finding part 1.
 - Mar 2: Homework week 7: Route-finding part 2.

@@ -23,7 +23,7 @@ shown in [[https://www.cefns.nau.edu/~edo/Classes/CS470-570_WWW/Assignments/Prog
 - followed by the output of that command (from print statements and/or
   the return value),
 - followed by a newline (to provide visual separation between each
-  command). If you do sys.ps1='\n>>>' then that will print a newline
+  command). If you do sys.ps1='\n>>> ' then that will print a newline
   before every command prompt.
 
 One way to do this is by simply running "python" which starts the

@@ -110,12 +110,12 @@ the right track...
 ** Part 0 Deliverables
 
 - You must use this [[file:board.txt]] and [[file:twl06.txt]] as your input files.
-- A =loadBoard= function that takes the filename of a board file, and
+- A =loadBoard(filename)= function that takes the filename of a board file, and
   loads that in to work on --- returns a new board data structure (NxN
   matrix). Obviously you'll call this right at the start.
-- A =printBoard= function. Takes in a reference to a loaded board data
+- A =printBoard(board_object)= function. Takes in a reference to a loaded board data
   structure (an NxN matrix) and prints it out. Simple.
-- A =possibleMoves= function. Takes in a current position (just an x-y
+- A =possibleMoves(xy_pair, board_object)= function. Takes in a current position (just an x-y
   pair) and a boggle board and generates all possible next positions
   (x-y pairs in a list, set, or whatever you decide).
 - Download [[file:02_test.py]] and put your implementations of the three

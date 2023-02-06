@@ -8,8 +8,9 @@ command line like:
 $ python boggle_solver.py board4.txt twl06.txt
 #+end_src
 
-The list of found words should be output to board4_words.txt -- this
-will be used to evaluate the quality of your solution.
+The list of found words (one word per line) should be output to
+board4_words.txt -- this will be used to evaluate the quality of your
+solution.
 
 ** Thinking questions
 
@@ -39,10 +40,10 @@ labeled answers to each of the following:
   present your answers to each as clear narrative interspersed with
   graphs, figures, equations and whatever else you need.
   - a. Observe your own results: Run your solver on several 4x4, 3x3,
-    and 2x2 boards. How many different words did your solver explore
-    on each? How much time was taken on each. Now analyze: Come up
-    with a curve showing your results. Then use this to predict the
-    time/moves it would take to explore a 5x5 board.
+    and 2x2 boards (use [[file:04_generator.py][generator]]). How many different words did your
+    solver explore on each? How much time was taken on each. Now
+    analyze: Come up with a curve showing your results. Then use this
+    to predict the time/moves it would take to explore a 5x5 board.
   - b. Analyze the problem generally: How many possible combinations
     of letters (i.e. actual words or not) can be constructed from an
     NxN board? Walk through your reasoning carefully, showing how your
@@ -64,3 +65,5 @@ labeled answers to each of the following:
     maximize points in a time-limited time? Don't just speculate,
     support your answer clearly with your empirical results!
 
+EXTRA CREDIT: Friday competition, 20, 10, 5 points extra for first,
+second, third place in terms of time.

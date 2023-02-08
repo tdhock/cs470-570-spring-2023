@@ -65,7 +65,12 @@ anaconda]]), I recommend using an IDE such as [[https://github.com/tdhock/cs499-
   - [[https://en.wikipedia.org/wiki/Boggle][Boggle wikipedia page]].
   - [[file:slides/chapter1.pptx][Chapter 1 slides]].
 - Feb 2: [[file:homeworks/03_boggle1.org][Homework week 3: Boggle part 1]].
+  - [[file:slides/chapter2.pptx][Chapter 2 slides]].
 - Feb 9: [[file:homeworks/04_boggle2.org][Homework week 4: Boggle part 2]].
+  - [[file:slides/chapter3.1.pptx][Chapter 3.1 slides]].
+  - Friday Feb 10: bring your boggle program to class to compete for
+    EXTRA CREDIT: fastest program that gets the right answer wins! (no
+    false positive words, no false negative words)
 - Feb 16: Homework week 5: Route-finding part 0. 
 - Feb 23: Homework week 6: Route-finding part 1.
 - Mar 2: Homework week 7: Route-finding part 2.

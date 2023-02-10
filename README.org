@@ -70,7 +70,7 @@ anaconda]]), I recommend using an IDE such as [[https://github.com/tdhock/cs499-
   - [[file:slides/chapter3.1.pptx][Chapter 3.1 slides]].
   - Friday Feb 10: bring your boggle program to class to compete for
     EXTRA CREDIT: fastest program that gets the right answer wins! (no
-    false positive words, no false negative words)
+    false positive words, no false negative words) put your program in [[https://drive.google.com/drive/folders/1N6fSB7jQuJBkG1x3V-wvrRyNMG5IHICQ?usp=sharing][this google drive folder]].
 - Feb 16: Homework week 5: Route-finding part 0. 
 - Feb 23: Homework week 6: Route-finding part 1.
 - Mar 2: Homework week 7: Route-finding part 2.

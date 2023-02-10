@@ -65,5 +65,6 @@ labeled answers to each of the following:
     maximize points in a time-limited time? Don't just speculate,
     support your answer clearly with your empirical results!
 
-EXTRA CREDIT: Friday competition, 20, 10, 5 points extra for first,
-second, third place in terms of time.
+EXTRA CREDIT: Friday competition, 30, 20, 10 points extra for first
+(Michael Vertin), second (Nick Persley), third place (Gus Siegel) in terms of
+time. 5 points for participation (Alex Poole, Nick Ray, Logan Samstag).

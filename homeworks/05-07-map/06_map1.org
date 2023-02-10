@@ -1,0 +1,19 @@
+Route-finding part 1
+
+- Printout of your program output running the [[https://www.cefns.nau.edu/~edo/Classes/CS470-570_WWW/Assignments/Prog2-RoadwarriorSearch/sampleRuns/10sample.html][10-node]] and [[https://www.cefns.nau.edu/~edo/Classes/CS470-570_WWW/Assignments/Prog2-RoadwarriorSearch/sampleRuns/30sample.html][30-node]]
+  samples given above. For each one, run the first three expansion
+  steps with VERBOSE mode on, to show development of your OPEN
+  list. Then turn VERBOSE=off, and let the searches run to completion
+  to show the final stats.
+- Printouts of your program running the dynamically assigned
+  searches. [[https://www.cefns.nau.edu/~edo/Classes/CS470-570_WWW/Assignments/Prog2-RoadwarriorSearch/Testing-Assignment-pt2.html][DESCRIPTION]], [[file:program2_tests2.py][TESTS]].
+- Your richly commented and professionally presented code (may be be
+  duplex printed).
+
+ATTENTION: when you are showing runs of your searches, *you must
+clearly label the printouts*!! Especially: you should carefully state
+what input map you are running on! An excellent way to help me out
+here is to attach a small snapshot of the graphical layout of the
+map...makes it easy to see which map your are running! Extra cool is
+if you've asked the visualizer to paintPath the final goal path found
+by your search, so that it's showing in red on the map!

@@ -2,6 +2,14 @@ Route-finding programming project
 
 ** Overview
 
+- Week 5: basic classes/methods/sub-routines for reading data and
+  route finding.
+- Week 6: tree search algorithms for route-finding, with a single
+  destination/goal.
+- Week 7: modify algorithms to support multiple destinations/goals.
+
+** Description
+
 Now that we are well on the way to understanding the concept of “state
 space search” with our primitive Boggle-bashing, it’s time to have a
 deeper look at searching to better understand what it is we were doing

@@ -7,7 +7,7 @@ words.txt <- sub(".txt", "_words.txt", board.txt)
 solution.txt <- sub(".txt", "_solution.txt", board.txt)
 read.words <- function(txt.file){
   wdt <- tryCatch({
-    data.table::fread(txt.file, col.names="word")
+    data.table::fread(txt.file, col.names="word", header=FALSE)
   }, error=function(e){
     data.table()
   })
@@ -18,15 +18,16 @@ read.words <- function(txt.file){
 }
 solution.dt <- read.words(solution.txt)
 result.dt.list <- list()
+system("python3 --version")
 for(py.file in py.file.vec){
-  py.cmd <- paste("python", py.file, board.txt, "twl06.txt")
+  py.cmd <- paste("python3", py.file, board.txt, "twl06.txt")
   program <- basename(sub(".py$", "", py.file))
   for(iteration in 1:3){
     unlink(words.txt)
     timing <- system.time({
       system(py.cmd)
     })
-    words.dt <- read.words(words.txt)
+    words.dt <- read.words(words.txt)[, word := toupper(word)]
     false.positives <- words.dt[!solution.dt, on="word"]
     false.negatives <- solution.dt[!words.dt, on="word"]
     result.dt.list[[paste(py.file, iteration)]] <- data.table(

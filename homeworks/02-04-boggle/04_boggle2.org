@@ -9,8 +9,12 @@ $ python boggle_solver.py board4.txt twl06.txt
 #+end_src
 
 The list of found words (one word per line) should be output to
-board4_words.txt -- this will be used to evaluate the quality of your
-solution.
+=board4_words.txt= -- this file will be used to evaluate the quality
+of your solution (false positives and false negatives), using
+[[file:04_judge.R]]. We will use several different boards, so your output
+file name should depend on the input file name.
+- So if there is another board file name, say =x.txt=, the output
+  should be saved to =x_words.txt= (not =board4_words.txt=).
 
 ** Thinking questions
 

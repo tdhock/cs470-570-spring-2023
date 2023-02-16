@@ -149,6 +149,8 @@ Don't worry, we'll only turn on verbose mode for testing where we specify a smal
 Here are a couple of sample output files to show you what your
 solution should be producing:
 
+- Note that the output shows
+  [nodeLabel;depth;g(n)=path_cost;h(n)=heuristic_cost;f(n)=total_cost].
 - [[https://www.cefns.nau.edu/~edo/Classes/CS470-570_WWW/Assignments/Prog2-RoadwarriorSearch/sampleRuns/10sample.html][Simple 10 node map]]
 - [[https://www.cefns.nau.edu/~edo/Classes/CS470-570_WWW/Assignments/Prog2-RoadwarriorSearch/sampleRuns/30sample.html][Nice 30 node map]]
 - [[https://www.cefns.nau.edu/~edo/Classes/CS470-570_WWW/Assignments/Prog2-RoadwarriorSearch/sampleRuns/300sample.html][Big City 300 node fun]]

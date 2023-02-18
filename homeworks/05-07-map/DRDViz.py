@@ -1,13 +1,18 @@
-## DRDViz is a powerful graph visualizer graph specifically for visualizing searches in a given search space. It
-# it designed to be used an an "attached helper" to some sort of graph searching class.  The overall idea is that you
-# you create an instance of your graph searcher object, loading some map file.  You then create yourself an instance
-# of the DRDViz class, and load it with the same map file as your search class; the new DRDViz is stored in an
-# instance variable of your graph searcher object.  Each time your graph searcher does something significant
-# e.g. setting start/edge node, exploring a new node in the search, or adding new siblings to the OPEN list of the
-# search, it simply calls a method on the attached DRDViz to visually show the evolving search on the graphical map.
+# DRDViz is a powerful graph visualizer graph specifically for
+# visualizing searches in a given search space. It it designed to be
+# used an an "attached helper" to some sort of graph searching class.
+# The overall idea is that you you create an instance of your graph
+# searcher object, loading some map file.  You then create yourself an
+# instance of the DRDViz class, and load it with the same map file as
+# your search class; the new DRDViz is stored in an instance variable
+# of your graph searcher object.  Each time your graph searcher does
+# something significant e.g. setting start/edge node, exploring a new
+# node in the search, or adding new siblings to the OPEN list of the
+# search, it simply calls a method on the attached DRDViz to visually
+# show the evolving search on the graphical map.
 
 ## Usage examples:
-# x=DRDViz()  # make yourself a new visualizer
+# x=DRDViz_class()  # make yourself a new visualizer
 # x.loadGraphFromFile('testfile.txt')  # load it up from a map file
 # x.plot()  # make the plot of the road map appear
 # x.markStart('A')  # mark starting node A
@@ -32,7 +37,7 @@ from edge import Edge
 ### GRAPHVIZ
 # This class implements a graph visualizer.  It can plot a graph, then provides methods to mark start/end nodes, and to
 # color/re-color nodes and edges in various ways to visualize exploration of the space defined by the graph.
-class DRDViz:
+class DRDViz_class:
 
     # to create a GraphVisualizer, you first create the blank visualizer (no args taken by INIT).
     # You could then use either loadGraphFromFile() or loadGraphFromObjects() to suck in a map to visualize
@@ -100,14 +105,15 @@ class DRDViz:
 
 
     # Takes in start node label, and repaints that node as start (ie, different node shape and green)
+    start_color = 'c' #cyan  https://matplotlib.org/stable/tutorials/colors/colors.html
     def markStart(self,startLabel):
-        self.paintNode(startLabel, 'g', weight='bold')  # paint label of start node green
-        self.plotVertex(startLabel, 'D', 'g')  # give start node a green vertex
+        #self.paintNode(startLabel, self.start_color, weight='bold')  # paint label of start node 
+        self.plotVertex(startLabel, 'D', self.start_color)  # give start node a vertex
         self.paintGraph()
 
     # Takes in end node label, and repaints that node as end (ie, different node shape and red)
     def markGoal(self,goalLabel):
-        self.paintNode(goalLabel, 'r', weight='bold')  # paint label of endnode red
+        #self.paintNode(goalLabel, 'r', weight='bold')  # paint label of endnode red
         self.plotVertex(goalLabel, 'D', 'r') # give end node a different label shape/color
         self.paintGraph()  # force a repaint
 

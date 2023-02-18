@@ -1,6 +1,6 @@
-$ python interpreter.py program2_tests1.py
+$ python interpreter.py 05_homework.py
 
->>> from program2_funs import Searcher, hSLD, SNode
+...
 
 >>> # (b) Show your program loading in the 30-node sample file. 
 

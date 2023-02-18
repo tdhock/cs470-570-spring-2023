@@ -296,7 +296,7 @@ following rules in implementing your solution:
   better, I've made you graph visualizer and creator tools; you are
   free to use them as you like. Find these tools here.
 
-** To turn in for part 1
+** To turn in for part 0
 
 A PDF on bblearn with the following items in exactly this order:
 - (a) Create a super-simple SearchNode class that has at least two
@@ -305,8 +305,8 @@ A PDF on bblearn with the following items in exactly this order:
 - (b) Show your program loading in the 30-node sample file above, by
   instantiating the Searcher class, =Searcher("map.txt")=.
 - (c) Show you program setting start node=U and end node=T. Accompany
-  your console action with snapshot of the graphical map after this
-  action, i.e., using the [[file:DRDViz.py][DRDViz]] tool.
+  your console action with a screenshot of your entire desktop with the
+  graphical map visible (using the [[file:DRDViz.py][DRDViz]] tool).
 - (d) Ask your program to show your OPEN list to see that indeed node
   U is in it. Your node.showBasic() method should print (label, value)
   for that node.
@@ -321,8 +321,8 @@ A PDF on bblearn with the following items in exactly this order:
 - (g) Now let's make sure your INSERT handles duplicates properly:
   manually create new nodes for (K,500), (C,91) and (J,10). INSERT
   these into your OPEN list, showing the results.
-- Show your hSLD heuritic function being called on these nodes: V, AC,
-  and J.
+- Show your hSLD (Straight Line Distance) heuritic function being
+  called on these nodes: V, AC, and J.
 
 Tests file with commands you should run: [[file:05_tests.py][05_tests.py]].
 

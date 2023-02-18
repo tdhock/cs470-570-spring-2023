@@ -1,4 +1,4 @@
-Program #2:  RoadWarrior meets Google Maps
+Program #2: Route-Finding
 
 ** Overview
 

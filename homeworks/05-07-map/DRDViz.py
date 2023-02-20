@@ -12,7 +12,7 @@
 # show the evolving search on the graphical map.
 
 ## Usage examples:
-# x=DRDViz_class()  # make yourself a new visualizer
+# x=DRDViz()  # make yourself a new visualizer
 # x.loadGraphFromFile('testfile.txt')  # load it up from a map file
 # x.plot()  # make the plot of the road map appear
 # x.markStart('A')  # mark starting node A
@@ -37,7 +37,7 @@ from edge import Edge
 ### GRAPHVIZ
 # This class implements a graph visualizer.  It can plot a graph, then provides methods to mark start/end nodes, and to
 # color/re-color nodes and edges in various ways to visualize exploration of the space defined by the graph.
-class DRDViz_class:
+class DRDViz:
 
     # to create a GraphVisualizer, you first create the blank visualizer (no args taken by INIT).
     # You could then use either loadGraphFromFile() or loadGraphFromObjects() to suck in a map to visualize

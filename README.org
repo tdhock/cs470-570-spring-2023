@@ -76,18 +76,18 @@ anaconda]]), I recommend using an IDE such as [[https://github.com/tdhock/cs499-
   - [[file:slides/chapter3.2.pptx][Chapter 3.2 informed search slides]].
 - Feb 23: [[file:homeworks/05-07-map/06_map1.org][Homework week 6: Route-finding part 1]].
 - Mar 2: [[file:homeworks/05-07-map/07_map2.org][Homework week 7: Route-finding part 2]].
-  - Weds Mar 1: route-finding extra credit tournament. fastest program
-    that gets the right answer wins! put your program in [[https://drive.google.com/drive/folders/1N6fSB7jQuJBkG1x3V-wvrRyNMG5IHICQ?usp=sharing][this google
-    drive folder]].
   - Fri Mar 3: no class, but please start working on practice mid-term
     solutions.
-- Mar 9: week 8, no homework, Mid-term review and exam.
+- Mar 9: week 8, no homework, [[file:exams.org][Mid-term review]] and exam.
   - Mon Mar 6: review session: present your practice mid-term
     solutions in class for extra credit on the actual mid-term exam.
   - Weds Mar 8: mid-term exam.
   - Fri Mar 10: no class.
 - Mar 16: spring break!
 - Mar 23: Homework week 9: Halma part 0.
+  - Mon Mar 20: route-finding extra credit tournament. fastest
+    program that gets the right answer wins! Bring your program on a
+    laptop /usb drive or put it in [[https://drive.google.com/drive/folders/1N6fSB7jQuJBkG1x3V-wvrRyNMG5IHICQ?usp=sharing][this google drive folder]].
 - Mar 30: Homework week 10: Halma part 1.
 - Apr 6: Homework week 11: Halma part 2.
 - Apr 13: Homework week 12: Image classification part 0.

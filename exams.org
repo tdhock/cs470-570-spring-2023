@@ -1,7 +1,7 @@
 Practice exam 1
 
-1. We learned that a Learning Agent can be seen as being composed of
-   four interacting components (PEAS). Name the four components and
+1. We learned that an intelligent axgent can be seen as being composed
+   of four interacting components (PEAS). Name the four components and
    briefly describe what each does.
 
 2. For each of the following three task environments, give the six

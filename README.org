@@ -84,12 +84,13 @@ anaconda]]), I recommend using an IDE such as [[https://github.com/tdhock/cs499-
   - Weds Mar 8: mid-term exam.
   - Fri Mar 10: no class.
 - Mar 16: spring break!
-- Mar 23: Homework week 9: Halma part 0.
+- Mar 23: Homework week 9: [[file:homeworks/09-11-halma/README.org][Halma part 0]].
   - Mon Mar 20: route-finding extra credit tournament. fastest
     program that gets the right answer wins! Bring your program on a
     laptop /usb drive or put it in [[https://drive.google.com/drive/folders/1N6fSB7jQuJBkG1x3V-wvrRyNMG5IHICQ?usp=sharing][this google drive folder]].
-- Mar 30: Homework week 10: Halma part 1.
-- Apr 6: Homework week 11: Halma part 2.
+- Mar 30: Homework week 10: [[file:homeworks/09-11-halma/README.org][Halma part 1]].
+- Apr 6: Homework week 11: [[file:homeworks/09-11-halma/README.org][Halma part 2]].
+  - Fri Apr 7: extra credit tournament!
 - Apr 13: Homework week 12: Image classification part 0.
 - Apr 20: Homework week 13: Image classification part 1.
 - Apr 27: Homework week 14: Image classification part 2.

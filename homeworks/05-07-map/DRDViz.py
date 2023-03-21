@@ -242,3 +242,4 @@ if __name__ == "__main__":
     x=DRDViz()
     x.loadGraphFromFile("test1.txt")
 
+DRDViz_class = DRDViz

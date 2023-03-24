@@ -342,12 +342,36 @@ make sure that teams are moving along, and stay on track to produce a
 good product on time at the final. Each deliverable is a PDF uploaded
 to bblearn; the details and deadlines are as follows:
 
-*** Part 0 Deliverable
-
-Part 0 Deliverable consists of the following:
+*** Part 0 Deliverable: GUI and moves for one player
 
 - Overview. A brief description of how you chose to architect your
-  project: overview of the key objects/classes and their key methods.
+  code: overview of the key objects/classes and their key methods.
+- NxN grid, each cell can be a Tkinter.Canvas.
+- Screenshot of initial board: white or black circles in one corner,
+  representing the pieces for one player. (use canvas.create_oval)
+- Screenshots of possible moves after clicking on a piece. Clicking on
+  a circle should hilight that piece, and make squares appear,
+  representing where moves are possible for that piece. (use
+  canvas.create_rectangle)
+- Screenshots after having moved some pieces. Clicking on a square should
+  move the hilighted piece (delete the old oval, and draw a new
+  one). You can erase/remove circles and squares via
+  canvas.delete(id).
+- Screenshot of moves available from several consecutive jumps. Start
+  by implementing moves to adjacent squares. After that is working,
+  implement the jumping.
+- Extra Credit: arrange the pieces as shown in the figure below, and
+  then click on the right piece, and take a screenshot of the possible
+  moves, that shows that your program agrees with that figure (from
+  [[https://en.wikipedia.org/wiki/Halma][wikipedia]]).
+
+[[file:Halma_rules.png]]
+
+Please submit a PDF with your code, along with labeled and annotated
+screenshots that very clearly demonstrate each of the above.
+
+*** Part 1 Deliverable
+
 - Functionality checklist. This documents precisely the functionality
   that you completed for this phase. Hopefully, this is just a series
   of "100% working" checkmarks. Make this a table as well, with three
@@ -381,17 +405,17 @@ Part 0 Deliverable consists of the following:
   demo each of the pieces that you did get working. Let's hope it
   doesn't come to that...
 
-*** Part 1 Deliverable
+*** Part 2 deliverable
 
-- Overview: Similar to part 0, but now extended to focus on the
+- Overview: Similar to part1, but now extended to focus on the
   creation of your intelligent Halma agent. Condense your description
-  of the basics from Part0 (labeling them as "Part0" pieces), but
+  of the basics from Part1 (labeling them as "Part1" pieces), but
   leave them in so as to give a complete picture. Then add in
-  (labeling as Part 0) what objects/classes you added to upgrade your
+  (labeling as Part1) what objects/classes you added to upgrade your
   program into an intelligent system for playing Halma. Be sure to
   discuss the design of your utility function, i.e., what metrics it
   uses to determine the "goodness" of a board.
-- Functionality Checklist. Just as for Part 0, but now has the
+- Functionality Checklist. Just as for Part1, but now has the
   following items for the Functionality column:
   - Utility function. Have a fully-functional utility function that,
     given a board, return some non-trivial (i.e. actually useful)
@@ -414,8 +438,5 @@ Part 0 Deliverable consists of the following:
     hope to see the stats improve (more boards within same time...or
     less time for same number of boards), plus some indication of how
     many pruning events happened and on what ply/level.
-
-** Part 2 deliverable
-
 - Performance tuning your project, to try to get it running as fast as
   possible for the tournament.

@@ -326,17 +326,6 @@ code). There are three basic deliverables for this project (Parts
 implementation. The tournament provides the proof of what you
 state in your write-ups.
 
-The detailed scoring will, of course, be left up to your professor,
-but the basic outline goes like this:
-
-- 0-60% -- fully-functional *manual* version of a Halma
-  playing program.
-- 60-100% -- fully-functional Halma agent, that is, a
-  program with smart computer player. Detailed points depend on level
-  of smartness, as described in write-up and demonstrated in
-  tournament.
-- Extra credit points will be given as premiums in the tournament.
-
 ** Project Deadlines and Deliverables:
 
 As outlined above, the project is divided into three parts to help
@@ -350,7 +339,8 @@ goes in the PDF are requirements)
 
 - Overview. A brief description of how you chose to architect your
   code: overview of the key objects/classes and their key methods.
-- NxN grid, each cell can be a Tkinter.Canvas.
+- Display NxN grid, each cell can be a Tkinter.Canvas, use N=8 for
+  screenshots in part 0.
 - Screenshot of initial board: white or black circles in one corner,
   representing the pieces for one player. (use canvas.create_oval)
 - Screenshots of possible moves after clicking on a piece. Clicking on
@@ -443,3 +433,15 @@ Suggestions: my solution has two classes, with the following methods:
     many pruning events happened and on what ply/level.
 - Performance tuning your project, to try to get it running as fast as
   possible for the tournament.
+
+The detailed scoring for part 2 will, of course, be left up to your
+professor, but the basic outline goes like this:
+
+- 0-60% -- fully-functional *manual* version of a Halma
+  playing program.
+- 60-100% -- fully-functional Halma agent, that is, a
+  program with smart computer player. Detailed points depend on level
+  of smartness, as described in write-up and demonstrated in
+  tournament.
+- Extra credit points will be given as premiums in the tournament.
+

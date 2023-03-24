@@ -370,7 +370,7 @@ to bblearn; the details and deadlines are as follows:
 Please submit a PDF with your code, along with labeled and annotated
 screenshots that very clearly demonstrate each of the above.
 
-*** Part 1 Deliverable
+*** Part 1 Deliverable: game for two humans
 
 - Functionality checklist. This documents precisely the functionality
   that you completed for this phase. Hopefully, this is just a series
@@ -405,7 +405,7 @@ screenshots that very clearly demonstrate each of the above.
   demo each of the pieces that you did get working. Let's hope it
   doesn't come to that...
 
-*** Part 2 deliverable
+*** Part 2 deliverable: game for human and AI
 
 - Overview: Similar to part1, but now extended to focus on the
   creation of your intelligent Halma agent. Condense your description

@@ -82,7 +82,7 @@ interface. Here is the basic use case:
   - seconds_limit: Number of seconds allowed for each move. So that the
     algorithm can monitor its own time usage in order to present a
     move before the time limit runs out.
-  - human_player: Which player you (the human) are: Red or Green. Green
+  - human_player: Which player you (the human) are: White or Black. Green
     always gets to move first.
   - optional: you could allow passing in the filename of a "board
     file" containing a particular board. This can be useful during
@@ -134,7 +134,7 @@ interface. Here is the basic use case:
 To help organize, we will divide this program up into three weeks,
 each of which has a list of things to get done. 
 
-*** Basics Phase: Manual game playing framework
+*** Basics Parts 0-1: Manual game playing framework
 
 This creates the basic game playing framework that allows two humans
 to play, but is missing an intelligent computer player. Has roughly
@@ -183,7 +183,7 @@ presents the game and then asks each player in turn for their move,
 moving pieces accordingly, reporting illegal moves, and reporting wins
 and scores.
 
-*** Brains Phase: Creating your Halma agent
+*** Brains, part 2: Creating your Halma agent
 
 Now add a "computer player" by creating a smart Halma playing
 agent. Assuming that you have the basics in place, including a
@@ -337,10 +337,12 @@ but the basic outline goes like this:
 
 ** Project Deadlines and Deliverables:
 
-As outlined above, the project is divided into three phases to help
-make sure that teams are moving along, and stay on track to produce a
-good product on time at the final. Each deliverable is a PDF uploaded
-to bblearn; the details and deadlines are as follows:
+As outlined above, the project is divided into three parts to help
+make sure you are moving along, and stay on track to produce a good
+product on time at the end. Each part requires a PDF uploaded to
+bblearn; the details and deadlines are as follows. (note that the
+instructions above are suggestions but the statements below about what
+goes in the PDF are requirements)
 
 *** Part 0 Deliverable: GUI and moves for one player
 
@@ -385,11 +387,7 @@ screenshots that very clearly demonstrate each of the above.
   - Move generator: Given a board and which player to move, it
     produces a correct and complete list of possible next moves,
     including jumps.
-  - Win detector: Given a board and a player, correctly returns
-    whether it is a winning (or losing!) board for that player.
-  - A "move" method. Takes in a board and a move and returns either a
-    new board (after making move), or an error report detailing a bad
-    move.
+  - Win detector: display a message when one player wins.
   - Fully functional play mode: A Game object that plays a fully
     functional manual game, taking in moves from two human players in
     alternating sequence, showing the boards, reporting bad moves, and
@@ -397,13 +395,16 @@ screenshots that very clearly demonstrate each of the above.
   - Any extra/additional functionality that you innovated and think is
     worth highlighting.
 - Demos: Clearly labeled and annotated screenshots that very clearly
-  demonstrated each of the above. In the best case, this is just a
-  sequence of screenshots (labeled and annotated) of two humans
-  playing your game, showing the board, some both good and erroneous
-  moves, and ultimately a win by someone. Obviously, if your product
-  is not able to play a coherent game, then you'll need to at least
-  demo each of the pieces that you did get working. Let's hope it
-  doesn't come to that...
+  demonstrated each of the above. 
+
+Suggestions: my solution has two classes, with the following methods:
+- Position: create_oval, update_distance_to_goal, create_shape,
+  delete_shape, click_oval, click_rectangle, move_positions, jump,
+  adjacent_positions, get_position_for_xy_offset.
+- Board: next_turn, hilite_turn, delete_moves. With useful data
+  attributes for keeping track of which positions have pieces/moves
+  drawn: piece_dict (indexed by xy position), move_list. And current total scores for each
+  player (total_distance_to_goal, lower is better).
 
 *** Part 2 deliverable: game for human and AI
 

@@ -249,8 +249,10 @@ but the basic plan is to meet in the classroom, establish a playoff
 bracket, and have a series of head-to-head matches to determine who is
 the Halma champion. It will go like this:
 
+[[file:halma8x8.jpg]]
+
 - The tournament will be played using an 8x8 board, 10 pieces each,
-  [[file:halma8x8-2.jpg][with starting position as shown here]].
+  with starting position as shown above.
 - Each person must bring one laptop that has a functioning
   version of Python3 installed.
 - Two teams that are playing each other will choose a laptop to play

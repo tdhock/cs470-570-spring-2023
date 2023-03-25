@@ -89,6 +89,7 @@ anaconda]]), I recommend using an IDE such as [[https://github.com/tdhock/cs499-
     program that gets the right answer wins! Bring your program on a
     laptop /usb drive or put it in [[https://drive.google.com/drive/folders/1N6fSB7jQuJBkG1x3V-wvrRyNMG5IHICQ?usp=sharing][this google drive folder]].
 - Mar 30: Homework week 10: [[file:homeworks/09-11-halma/README.org][Halma part 1]].
+  - [[file:slides/chapter5.pptx][Slides ch5]].
 - Apr 6: Homework week 11: [[file:homeworks/09-11-halma/README.org][Halma part 2]].
   - Fri Apr 7: extra credit tournament!
 - Apr 13: Homework week 12: Image classification part 0.

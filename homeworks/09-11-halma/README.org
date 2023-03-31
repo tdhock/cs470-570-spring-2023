@@ -48,7 +48,7 @@ of the rules we'll observe are:
 
 - The game is turn-taking. We'll flip a coin to see which player moves
   first, and there will be a time limit to make a move (e.g. 2
-  minutes).
+  seconds).
 - The "standard" Halma board is 16x16 in size, but 8x8 and 10x10
   variations are common. Since this shouldn't really affect any code
   (if we do this right), we will technically allow different board
@@ -372,7 +372,7 @@ screenshots that very clearly demonstrate each of the above.
   columns: Functionality, %complete, notes. Here are the items in the
   "Functionality" column:
   - Graphical board display: Generates nicely-formatted GUI for your
-    system, including the board, plus status and move entry areas
+    system, including the board, plus status (score+win).
   - Board updating: GUI can receive updates to the board, display them
     smoothly, and includes move highlighting to chose from/to places
     of last-moved piece.
@@ -380,16 +380,12 @@ screenshots that very clearly demonstrate each of the above.
     produces a correct and complete list of possible next moves,
     including jumps.
   - Win detector: display a message when one player wins.
-  - Fully functional play mode: A Game object that plays a fully
-    functional manual game, taking in moves from two human players in
-    alternating sequence, showing the boards, reporting bad moves, and
-    reporting win/loss.
   - Any extra/additional functionality that you innovated and think is
     worth highlighting.
 - Demos: Clearly labeled and annotated screenshots that very clearly
   demonstrated each of the above. 
 
-Suggestions: my solution has two classes, with the following methods:
+Suggestions/hints: my solution has two classes, with the following methods:
 - Position: create_oval, update_distance_to_goal, create_shape,
   delete_shape, click_oval, click_rectangle, move_positions, jump,
   adjacent_positions, get_position_for_xy_offset.

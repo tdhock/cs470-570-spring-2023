@@ -254,7 +254,7 @@ the Halma champion. It will go like this:
 - The tournament will be played using an 8x8 board, 10 pieces each,
   with starting position as shown above.
 - Each person must bring one laptop that has a functioning
-  version of Python3 installed.
+  version of Python3.10 installed.
 - Two teams that are playing each other will choose a laptop to play
   on; both programs get loaded onto that laptop so that there are no
   hardware advantages. The two Halma players are started on the
@@ -409,11 +409,15 @@ Suggestions/hints: my solution has two classes, with the following methods:
   - Utility function. Have a fully-functional utility function that,
     given a board, return some non-trivial (i.e. actually useful)
     measure of how strong that board is.
-  - Minimax search. Is able to take a board, which player is moving, and some indication of how much to search (either #plies directly, or the time it has to move), and will return a move. At very least, it returns a legal move to make each and every time. At best, it returns a really *good* move to make!
-  - Alpha-beta. Can be turned on or off (for testing purposes) in your
-    call to minimax search. Implements the alpha-beta algorithm
-    correctly. Has some way of reporting the pruning events, so that
-    you can effectively debug/demo its efficacy.
+  - Minimax search. Is able to take a board, which player is moving,
+    and some indication of how much to search (either #plies directly,
+    or the time it has to move), and will return a move. At very
+    least, it returns a legal move to make each and every time. At
+    best, it returns a really *good* move to make!
+  - Alpha-beta pruning. Can be turned on or off (for testing purposes)
+    in your call to minimax search. Implements the alpha-beta
+    algorithm correctly. Has some way of reporting the pruning events,
+    so that you can effectively debug/demo its efficacy.
   - Any extra/additional functionality that you think is worth
     highlighting.
 - Demos: Same thing as before, but focus it on your "intelligent"
@@ -429,6 +433,8 @@ Suggestions/hints: my solution has two classes, with the following methods:
     many pruning events happened and on what ply/level.
 - Performance tuning your project, to try to get it running as fast as
   possible for the tournament.
+- Please submit a PDF with your code and results/screenshots as
+  described above.
 
 The detailed scoring for part 2 will, of course, be left up to your
 professor, but the basic outline goes like this:

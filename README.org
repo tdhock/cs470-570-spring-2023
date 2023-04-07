@@ -96,7 +96,7 @@ anaconda]]), I recommend using an IDE such as [[https://github.com/tdhock/cs499-
   - [[file:slides/week13-linear-models.pdf][slides about learning a linear model using torch]].
   - Mon Apr 10: extra credit Halma tournament! Bring a laptop with
     your code to class to compete for extra credit points.
-  - Fri Apr 14: class cancelled.
+  - Fri Apr 14: class cancelled, come to [[https://na.eventscloud.com/ehome/index.php?eventid=745717&][ASU West Machine Learning Day]].
 - Apr 20: Homework week 13: Image classification part 1.
 - Apr 27: Homework week 14: Image classification part 2.
 - May 4: reading week, exam review.

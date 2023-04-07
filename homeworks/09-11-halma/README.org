@@ -433,6 +433,9 @@ Suggestions/hints: my solution has two classes, with the following methods:
     many pruning events happened and on what ply/level.
 - Performance tuning your project, to try to get it running as fast as
   possible for the tournament.
+- Hint: you could create a method make_best_move_if_AI() and call it
+  at the end of next_turn(). It should make a list of possible
+  children/successor boards to search with minimax/alpha-beta.
 - Please submit a PDF with your code and results/screenshots as
   described above.
 

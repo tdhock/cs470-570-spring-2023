@@ -91,9 +91,12 @@ anaconda]]), I recommend using an IDE such as [[https://github.com/tdhock/cs499-
 - Mar 30: Homework week 10: [[file:homeworks/09-11-halma/README.org][Halma part 1]].
   - [[file:slides/chapter5.pptx][Slides ch5]].
 - Apr 6: Homework week 11: [[file:homeworks/09-11-halma/README.org][Halma part 2]].
-- Apr 13: Homework week 12: Image classification part 0.
+- Apr 13: Homework week 12: [[file:homeworks/12-14-image-classification/12_installation.org][Image classification part 0]].
+  - [[file:installation.org][installation instructions]].
+  - [[file:slides/week13-linear-models.pdf][slides about learning a linear model using torch]].
   - Mon Apr 10: extra credit Halma tournament! Bring a laptop with
     your code to class to compete for extra credit points.
+  - Fri Apr 14: class cancelled.
 - Apr 20: Homework week 13: Image classification part 1.
 - Apr 27: Homework week 14: Image classification part 2.
 - May 4: reading week, exam review.

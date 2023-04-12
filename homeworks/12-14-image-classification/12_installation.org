@@ -9,7 +9,7 @@ python, including
 
 Make sure to read the [[file:../../installation.org][installation instructions]].
 
-** Part 1: visualizing image data
+** Image classification homework Part 0: visualizing image data
 
 Your goal is to write a python script that performs the following steps:
 
@@ -37,7 +37,7 @@ Your goal is to write a python script that performs the following steps:
 3. First convert one row of your input data matrix into a DataFrame
    with columns row,col,intensity where row,col go from 0 to 15, and
    intensity are the input values (-1 to 1). Use
-   numpy.repeat/resize/arange to create row/col without any for
+   numpy.repeat/tile/arange to create row/col without any for
    loops. Then plug that DataFrame into plotnine with geom_tile/raster
    to visualize one row from that data set as an image of a digit. Use
    ggtitle to show the label of the chosen example.
@@ -58,7 +58,7 @@ your python code, (2) the corresponding results/output (after running
 your python code), and (3) your commentary/interpretation/answers to
 questions.
 
-** Part 2: advanced data visualization (extra credit)
+** Advanced data visualization (extra credit)
 
 These are exercises taken from
 https://rcdata.nau.edu/genomic-ml/animint2-manual/Ch02-ggplot2.html

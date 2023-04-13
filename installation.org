@@ -4,7 +4,7 @@ install/use [[https://docs.conda.io/projects/conda/en/latest/user-guide/install/
 - one of the [[https://docs.anaconda.com/anaconda/user-guide/tasks/integration/index.html][IDEs described on the anaconda docs]], (for beginners,
   choose one that you have used in the past), or
 - Visual Studio Code as described in the [[https://aeturrell.github.io/python4DS/introduction.html][python for data science
-  online book, Getting Started chapter]].
+  online book, Getting Started chapter]]. [[https://learn.microsoft.com/en-us/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-00-installation?view=vs-2022][Official Microsoft Docs]].
 - emacs, which allows you to write/edit code without using the mouse,
   and has great python support, including conda environments,
   interactive execution, completion, ...

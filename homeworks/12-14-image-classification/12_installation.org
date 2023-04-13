@@ -64,7 +64,7 @@ These are exercises taken from
 https://rcdata.nau.edu/genomic-ml/animint2-manual/Ch02-ggplot2.html
 which are in R, and the goal is to translate the code into
 python/plotnine (the variable name viz.aligned below refers to ggplot
-code on that web page). Please download the [[file:WorldBank.csv]] data
+code on that web page). Please download the [[https://raw.githubusercontent.com/tdhock/cs570-spring-2022/master/homeworks/WorldBank.csv][WorldBank.csv]] data
 set.
 
 1. In viz.aligned we showed a ggplot with a scatterplot panel on the

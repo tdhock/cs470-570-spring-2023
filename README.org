@@ -99,11 +99,11 @@ anaconda]]), I recommend using an IDE such as [[https://github.com/tdhock/cs499-
   - Mon Apr 10: extra credit Halma tournament! Bring a laptop with
     your code to class to compete for extra credit points.
   - Fri Apr 14: class cancelled, come to [[https://na.eventscloud.com/ehome/index.php?eventid=745717&][ASU West Machine Learning Day]].
-- Apr 20: Homework week 13: Image classification part 1.
+- Apr 20: [[file:homeworks/12-14-image-classification/13_torch.org][Homework week 13]]: Image classification part 1.
   - Weds Apr 19: office hours cancelled, instead come to my talk
     "Intro to Deep Learning in R" for [[https://researchbazaar.arizona.edu/resbaz/Arizona2023/][ResBaz AZ 2023]], 10:15-noon
     DuBois Juniper, extra credit homework score.
-- Apr 27: Homework week 14: Image classification part 2.
+- Apr 27: [[file:homeworks/12-14-image-classification/14_torch.org][Homework week 14]]: Image classification part 2.
 - May 4: reading week, exam review.
 - May 11: finals week.
 

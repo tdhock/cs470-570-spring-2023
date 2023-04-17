@@ -1,0 +1,27 @@
+** Class: TorchLearnerCV
+
+This class should implement hyper-parameter learning (select the
+number of epochs which minimizes loss on validation set). Like the CV
+class last week, this should have a fit method that splits train into
+subtrain and validation sets, then runs gradient descent and computes
+loss with respect to both sets at the end of each epoch.  After
+learning the best number of epochs using the validation set, you
+should re-run gradient descent on the entire train set using that
+number of epochs.
+
+** Experiments/application
+
+- Use similar experimental setup as previous homeworks (with 3-fold CV
+  train/test splits defined by KFold, and with featureless,
+  GridSearchCV+KNeighborsClassifier and LogisticRegressionCV), but add
+  your two new algorithms to compare (TorchLinear for linear model,
+  and TorchDeep for neural network with at least two hidden layers).
+- Run experiments on both spam and zip data.
+- Make sure to scale the spam data before putting them into the
+  data_dict and before any splitting (so you don't have to worry about
+  scaling in neural network code).
+- Show a table of resulting test accuracy numbers, as well as a ggplot
+  like in last homework. 
+- Does your implementation get similar test accuracy as scikit-learn,
+  or better?  (it should!)
+

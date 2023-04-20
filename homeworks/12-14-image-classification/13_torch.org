@@ -48,8 +48,9 @@ learning and making predictions with the previous class.
   network. This should have two dimensions (rows=number of
   observations/images, columns=number of classes=10).
 - predict(test_features) method should return a tensor of predicted
-  classes given the current weights in the neural network. (predict
-  whichever class has the highest score returned by decision_function)
+  classes given the current weights in the neural network. Predict
+  whichever class has the highest score returned by decision_function,
+  use pred_tensor.argmax(dim=1).
 
 ** Hyper-parameter training and diagnostic plot
 

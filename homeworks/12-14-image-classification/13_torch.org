@@ -43,11 +43,13 @@ learning and making predictions with the previous class.
   then over batches. You should use the take_step method on each
   batch. Compute and store the subtrain/validation loss at the end of
   each epoch.
-- decision_function(test_features) method should return a
-  tensor of real number predicted scores given the current weights in
-  the neural network.
-- predict(test_features) method should return a tensor of
-  predicted classes given the current weights in the neural network. (predict positive label if decision function is 
+- decision_function(test_features) method should return a tensor of
+  real number predicted scores given the current weights in the neural
+  network. This should have two dimensions (rows=number of
+  observations/images, columns=number of classes=10).
+- predict(test_features) method should return a tensor of predicted
+  classes given the current weights in the neural network. (predict
+  whichever class has the highest score returned by decision_function)
 
 ** Hyper-parameter training and diagnostic plot
 

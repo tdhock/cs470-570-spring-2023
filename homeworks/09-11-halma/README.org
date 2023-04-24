@@ -450,3 +450,13 @@ professor, but the basic outline goes like this:
   tournament.
 - Extra credit points will be given as premiums in the tournament.
 
+
+*** Other implementations (do not copy/use code from them, that would be plagiarism)
+
+- https://github.com/petetetete/halma-ai
+- https://github.com/ayushbha/Halma-Game-AI
+- https://github.com/ruchirshah1405/Halma-Game-Playing-Agent
+- https://github.com/Andrei-Vlasov/Pygame-Ugolki/blob/master/main.py
+- https://github.com/rasisbuldan/halma_game
+- https://github.com/Keerthivasan13/CSCI561_Artificial_Intelligence/blob/master/Game%20Playing%20using%20Minimax/agent.py
+- https://github.com/Tarun-Rafa/ai_agent/blob/master/board.py

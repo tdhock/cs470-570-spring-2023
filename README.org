@@ -104,6 +104,7 @@ anaconda]]), I recommend using an IDE such as [[https://github.com/tdhock/cs499-
     "Intro to Deep Learning in R" for [[https://researchbazaar.arizona.edu/resbaz/Arizona2023/][ResBaz AZ 2023]], 10:15-noon
     DuBois Juniper, extra credit homework score.
 - Apr 27: [[file:homeworks/12-14-image-classification/14_torch.org][Homework week 14]]: Image classification part 2.
+  - [[https://raw.githubusercontent.com/tdhock/2023-res-baz-az/main/HOCKING-slides-short.pdf][slides with test accuracy figures]].
 - May 4: reading week, exam review.
 - May 11: finals week.
 

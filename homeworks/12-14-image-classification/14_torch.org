@@ -21,5 +21,11 @@ entire train set using that number of epochs.
 
 - Implement additional learners beyond the linear model (fully
   connected neural network, convolutional neural network), +10EC for
-  each additional learner.
-
+  each additional learner. Make sure to use a dictionary to store them
+  (keys=learner names, values=learner initialization functions), and
+  use a for loop over dictionary elements.
+- Implement additional data sets like MNIST (another digit image data
+  set) and Fashion-MNIST (ten clothing image classes), look at torch
+  docs to see how to access those data sets. Make sure to use a
+  dictionary to store them (keys=data set names, values=data sets),
+  and use a for loop over dictionary elements.

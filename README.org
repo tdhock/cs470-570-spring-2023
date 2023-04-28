@@ -105,7 +105,9 @@ anaconda]]), I recommend using an IDE such as [[https://github.com/tdhock/cs499-
     DuBois Juniper, extra credit homework score.
 - Apr 27: [[file:homeworks/12-14-image-classification/14_torch.org][Homework week 14]]: Image classification part 2.
   - [[https://raw.githubusercontent.com/tdhock/2023-res-baz-az/main/HOCKING-slides-short.pdf][slides with test accuracy figures]].
-- May 4: reading week, exam review Weds May 3.
+- May 4: reading week, [[file:exams.org][exam review (questions 4-10)]] Weds May 3,
+  present your solution for 10 extra credit points toward your exam
+  score.
 - May 11: finals week, exam Weds May 10, 8-9:30.
 
 Homeworks will be graded using this [[https://docs.google.com/document/d/1-owd3uMexZKzdOib9R_CQrwke-BYkIq2-m6Sd1sFNVY/edit#heading=h.pekgvy78tviz][General Usage Rubric]]. 
